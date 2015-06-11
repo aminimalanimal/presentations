@@ -5,6 +5,7 @@
 - Criteria for Success
 - OS X
 - Sublime Text
+	- Introduction to the Interface
 	- Installing Package Control
 	- Controls
 		- Working with Multiple Cursors
@@ -58,6 +59,14 @@ Students will be able to know where to go to find additional resources.
 
 ## Sublime Text
 
+### Introduction to the Interface
+
+- side bar (though you may not need it much)
+- preferences panel, and how to set new preferences
+	- yours go in Preferences > User
+	- just json
+	- here's a bunch of possible preferences, and things I like
+
 ### Installing Package Control
 
 Let's take a minute to install Package Control. It's the only thing you'll have to do manually.
@@ -76,6 +85,7 @@ Doin' things - the thing-doer command
 - `command` + click
 - `command` + `d`
 - `control` + `shift` + `^`/`V`
+- `control` + click and drag - column selection
 
 ##### Word Wrap
 
@@ -94,8 +104,12 @@ Doin' things - the thing-doer command
 
 - `command` + `shift` + `f`
 	- what the little tools mean
-- `command` + `p`
-	- lossy search!
+	- how to only search certain files with `*.jade`, `*.coffee`
+- `command` + `p` - Goto Anything - fuzzy search!
+	- type in parts of name, even the path
+
+
+- `command` + `i` - incremental search
 
 #### Columns
 

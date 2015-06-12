@@ -55,15 +55,6 @@
 - Other Misc Tools
 	- Regexr
 	- Moom
-- Debugging (Only if there's time)
-	- Chrome Dev Tools
-		- Elements
-		- Network
-		- Sources
-		- Resources
-		- Parallels/VMWare/Virtual Box/Browserstack
-		- Debugging iOS
-		- Debugging Android
 
 <!-- /MarkdownTOC -->
 
@@ -303,57 +294,3 @@ ___
 ### Regexr
 
 ### Moom
-
-___
-
-## Debugging (Only if there's time)
-
-### Chrome Dev Tools
-
-#### Elements
-
-I assume you've used this. Got CSS, the ability to copy/edit HTML, etc.
-
-You can also:
-
-- force element state
-
-#### Network
-
-- clear
-- filter!
-
-Need to find something? Filter: can choose elements types
-
-This is really handy for finding json that gets passed back and forth, and finding the original state of a webpage before javascript performs DOM manipulation on it.
-
-
-#### Sources
-
-JavaScript debugging land!
-
-- breakpoints
-	- step over
-	- step into
-	- okay, let's step out of jQuery
-	- oh crap! we're in jQuery! time to cut jQuery out of it
-	- difference between the play buttons
-- using the console along with being paused
-	- scope variables and watch expressions
-	- call stack
-
-#### Resources
-
-See all the document types in one place
-
-
-#### Parallels/VMWare/Virtual Box/Browserstack
-
-#### Debugging iOS
-
-- use Safari or WebKit
-- make sure you have Apple Developer Tools installed through XCode
-
-#### Debugging Android
-
-- use Chrome

@@ -35,6 +35,7 @@
 	- Package: Markdown Editing
 	- Package: Markdown Preview
 	- Package: Markdown TOC
+	- Places where we can use Markdown
 - SourceTree
 	- Introduction to the Interface
 	- Basic Tasks
@@ -239,8 +240,12 @@ Documentation is going to be a big part of your job, if you're good at it. I sug
 - instant table of contents!
 - just use `depth=n`
 
+### Places where we can use Markdown
 
-
+- stackedit.io
+- stackoverflow/superuser
+- github
+- mou
 
 
 

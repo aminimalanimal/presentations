@@ -9,11 +9,14 @@
 	- Installing Package Control
 	- Controls
 		- Working with Multiple Cursors
+		- Copy/Pasta
 			- Word Wrap
 			- Package: Text Pastry
 			- Demonstration
-		- Lookin' fer stuff
-		- Columns
+	- Lookin' fer stuff
+	- Columns
+	- Snippets
+	- Commenting
 	- Documentation: Markdown Support
 		- Intro to Markdown
 		- Package: Markdown Editing
@@ -25,6 +28,7 @@
 		- Color Highlighter
 		- Syntax Highlighters
 		- Emmet
+		- Package: Gists
 - Debugging
 	- Chrome Dev Tools
 		- Elements
@@ -77,16 +81,24 @@ Let's take a minute to install Package Control. It's the only thing you'll have 
 Doin' things - the thing-doer command
 
 - `command` + `shift` + `p`
-- `command` + `shift` + `v` (inline paste)
 - `command` + `[` / `]`
-- `command` + `option` + `1`/`2`/`3`
 
 #### Working with Multiple Cursors
 
 - `command` + click
 - `command` + `d`
-- `control` + `shift` + `^`/`V`
 - `control` + click and drag - column selection
+
+#### Copy/Pasta
+
+- copy whole line just by being on the line
+	- with multiple cursors, copying whole line will cause all lines to be placed in multiple places
+- copying part of line
+	- each cursor will rememeber only it's portion
+
+- `command` + `shift` + `v` (inline paste)
+- `control` + `shift` + `^`/`V`
+
 
 ##### Word Wrap
 
@@ -101,7 +113,7 @@ Doin' things - the thing-doer command
 (Come up with quick demo, multiple fields, numbers, ids, etc.)
 
 
-#### Lookin' fer stuff
+### Lookin' fer stuff
 
 - `command` + `shift` + `f`
 	- what the little tools mean
@@ -112,9 +124,27 @@ Doin' things - the thing-doer command
 
 - `command` + `i` - incremental search
 
-#### Columns
+### Columns
 
 - `command` + `option` + `1`/`2`/`3`/`4`
+
+### Snippets
+
+- demo javascript `if`, `for`, `func` stuff
+- how to create snippets
+	Tools > New Snippet
+	- `.sublime-snippet`
+- explain tab stops ${1:this}
+- demo snippet creation
+	- src snippet
+	- style snippet
+
+### Commenting
+
+- `command` + `/`
+- `command` + `shift` + `/`
+
+
 
 ### Documentation: Markdown Support
 
@@ -149,15 +179,26 @@ Documentation is going to be a big part of your job, if you're good at it. I sug
 
 #### LINTERS
 
+- how to install
+	- walk through terminal installation for javascript linter
+	- install package
+
 #### Color Highlighter
 
 #### Syntax Highlighters
+
+- install syntaxes
+- browse through syntaxes
 
 #### Emmet
 
 - superfast HTML and CSS!
 
+#### Package: Gists
 
+- creating gists
+- updating
+- using gists as snippets
 
 
 
@@ -215,6 +256,8 @@ See all the document types in one place
 ### Parallels/VMWare/Virtual Box/Browserstack
 
 ## SourceTree
+
+
 
 - The ease of cherrypicking
 

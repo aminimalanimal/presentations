@@ -8,7 +8,7 @@
 		- Operable
 		- Understandable
 		- Robust
-	- Your users
+	- Your users / New User Personas
 		- Hearing Disabilities (Deafness and Hard-of-Hearing)
 		- Motor Disabilities (Physical impairments)
 		- Visual Disabilities (Blindness and Low Vision)
@@ -80,9 +80,14 @@ Offerings are Robust across multiple platforms
 
 ___
 
-### Your users
+### Your users / New User Personas
+
+> Consider creating user personas for these
 
 #### Hearing Disabilities (Deafness and Hard-of-Hearing)
+
+> This is Smash. Smash used to be in a metal band and had the most wicked cabinets around. Now, when he's browsing videos on YouTube, he's always got the closed captions on.
+
 Users with hearing impairments can use the web if provided captions for multimedia content (any video content that also has audio) and transcripts for audio-only content.   Without captions or transcripts, only the visual content is accessible.
 
 #### Motor Disabilities (Physical impairments) 
@@ -187,6 +192,11 @@ ___
 At this point in time, the ideal screen reader experience is a page that has true separate page loads.
 
 ### responsive difficulties
+
+https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b
+
+- stray from Giving Elements Identity Crisis
+	- minor design changes could lead to changes in a user’s interaction model.
 
 - thou shalt not switch input types - breaks our STAYING FOCUSED rule
 

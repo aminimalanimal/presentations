@@ -332,12 +332,22 @@ http://www.oaa-accessibility.org/examplep/checkbox2/
 
 ### Combobox
 
+http://www.oaa-accessibility.org/examplep/combobox2/
+http://www.oaa-accessibility.org/examplep/combobox5/
 
 ### Datepicker
 
+May or may not work at all. Doesn't function in Chrome.
+
+DO: have a separate date field from button that allows user to open the picker itself
+
+http://www.oaa-accessibility.org/examplep/datepicker1/
 
 ### Dialog_modal
 
+We've done this best.
+
+Incredible Accessible Modal
 
 ### Dialog_nonmodal
 

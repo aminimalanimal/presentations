@@ -1,5 +1,7 @@
 # Accessibility UX
 
+July 15th 4–5pm
+
 <!-- MarkdownTOC depth=6 -->
 
 - Straight up copy/pasta'ed from MIT:
@@ -26,16 +28,58 @@
 - pushing the limits within the limits
 	- SPA difficulties
 	- responsive difficulties
-- misc - for design
-- A look at particular components
-	- Tables
-	- Dropdown Menus
+		- stray from Giving Elements Identity Crisis
+- Misc - for design
+	- Color Contrast
+- Prototyping
+- Component Patterns for the Web
 	- Forms
 		- Input types
 	- Radios and checkboxes
 		- Naming Conventions
 		- Error Messaging
 		- Tooltips
+	- Tables
+- Components WIP
+	- Accordion
+	- Alert
+	- Alert or Message Dialog
+	- Autocomplete
+	- Button
+	- Checkbox
+		- Tri-State Checkbox
+	- Combobox
+	- Datepicker
+	- Dialog_modal
+	- Dialog_nonmodal
+	- Dialog_tooltip
+	- Draganddrop
+	- Grid
+	- Sortablegrid
+	- Landmarks
+	- Link
+	- Listbox
+	- Mediaplayer
+	- Menu
+	- Menubutton
+	- Popupmenu
+	- Popuphelp
+	- Radiobutton
+	- Richtext
+	- Site_navigator_general
+	- Site_navigator_tree
+	- Site_navigator_tabbed_style
+	- Slider
+	- Slidertwothumb
+	- Spinbutton
+	- Tabpanel
+	- Toolbar
+	- Tooltip
+	- Treegrid
+	- Treeview
+	- Windowsplitter
+	- Wizard
+	- Dropdown Menus
 	- Modals
 	- Expandable Content
 	- Show More...
@@ -195,29 +239,27 @@ At this point in time, the ideal screen reader experience is a page that has tru
 
 https://medium.com/salesforce-ux/7-things-every-designer-needs-to-know-about-accessibility-64f105f0881b
 
-- stray from Giving Elements Identity Crisis
-	- minor design changes could lead to changes in a user’s interaction model.
+#### stray from Giving Elements Identity Crisis
 
+- minor design changes could lead to changes in a user’s interaction model.
 - thou shalt not switch input types - breaks our STAYING FOCUSED rule
 
 
 
-## misc - for design
+## Misc - for design
 
-- color contrast
+### Color Contrast
 	- there be standards for compliance
 	- your icons don't matter—actually, all that matters is text on a background
 		- so this (pic of text on a crazy background) is bad
 
+## Prototyping
 
+Prototyping accessibility for the web requires knowledge of established patterns. Anything new requires testing.
 
-## A look at particular components
+## Component Patterns for the Web
 
-### Tables
-
-so tricky.
-
-### Dropdown Menus
+http://www.w3.org/TR/wai-aria-practices/#aria_ex
 
 ### Forms
 
@@ -241,6 +283,158 @@ Issues with overlaying native elements
 - multiple constraints:
 	- we can either treat these as modals
 	- or have them read immediately
+
+### Tables
+
+so tricky.
+
+
+___
+
+## Components WIP
+
+From http://www.w3.org/TR/wai-aria-practices/#aria_ex
+
+### Accordion
+
+http://www.oaa-accessibility.org/examplep/accordian1/
+
+### Alert
+
+http://www.oaa-accessibility.org/examplep/alert1/
+
+### Alert or Message Dialog
+
+http://www.oaa-accessibility.org/examplep/alertdialog1/
+
+### Autocomplete
+
+http://archive.dojotoolkit.org/nightly/dojotoolkit/dijit/tests/form/_autoComplete.html
+
+- doesn't work very well at all in Chrome VO
+
+### Button
+
+- care for all states
+
+https://css-tricks.com/so-many-states/
+
+- toggle buttons
+
+
+### Checkbox
+
+- these require basically rewriting native components entirely
+
+http://www.oaa-accessibility.org/examplep/checkbox2/
+
+#### Tri-State Checkbox
+
+### Combobox
+
+
+### Datepicker
+
+
+### Dialog_modal
+
+
+### Dialog_nonmodal
+
+
+### Dialog_tooltip
+
+
+### Draganddrop
+
+
+### Grid
+
+
+### Sortablegrid
+
+
+### Landmarks
+
+
+### Link
+
+
+### Listbox
+
+
+### Mediaplayer
+
+
+### Menu
+
+
+### Menubutton
+
+
+### Popupmenu
+
+
+### Popuphelp
+
+
+### Radiobutton
+
+
+### Richtext
+
+
+### Site_navigator_general
+
+
+### Site_navigator_tree
+
+
+### Site_navigator_tabbed_style
+
+
+### Slider
+
+
+### Slidertwothumb
+
+
+### Spinbutton
+
+
+### Tabpanel
+
+
+### Toolbar
+
+
+### Tooltip
+
+
+### Treegrid
+
+
+### Treeview
+
+
+### Windowsplitter
+
+
+### Wizard
+
+
+
+
+
+
+
+
+___
+
+
+
+### Dropdown Menus
+
 
 ### Modals
 

@@ -1,5 +1,7 @@
 # Core Dev Tools and Process
 
+2015 07 15 morning
+
 <!-- MarkdownTOC depth=6 -->
 
 - Overview

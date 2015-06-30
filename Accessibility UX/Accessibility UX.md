@@ -1,5 +1,7 @@
 # Accessibility UX
 
+2015 07 15 4–5pm
+
 <!-- MarkdownTOC depth=6 -->
 
 - how to use a screen reader

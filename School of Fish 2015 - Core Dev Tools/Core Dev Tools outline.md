@@ -16,28 +16,28 @@
 		- Word Wrap
 		- Working with Multiple Cursors
 		- Copy/Pasta
-	- Commenting
-		- Command Palette
 	- Customizing Your Sublime Workflow
 		- Preferences
-		- Plugins
-			- Installing Package Control
-			- Syntax Highlighters
-			- Linters
-			- Emmet
-			- Git
-			- Git Gutter
-			- Gists
-			- Color Highlighter
-			- Text Pastry
+		- Command Palette
+			- Plugins
+				- Installing Package Control
+				- Syntax Highlighters
+				- Linters
+				- Git Gutter
+				- Git
+				- Emmet
+				- Text Pastry
+				- Gists
+				- Color Highlighter
 		- Snippets
 	- Overall Demonstration
 - Documentation
+	- Commenting in Sublime Text
 	- Introduction to Markdown
+	- Places where we can use Markdown
 	- Package: Markdown Editing
 	- Package: Markdown Preview
 	- Package: Markdown TOC
-	- Places where we can use Markdown
 - SourceTree
 	- Introduction to the Interface
 	- Basic Tasks
@@ -115,7 +115,9 @@ The students are expected to recognize the types of tools at their disposal that
 
 - `command` + click
 - `command` + `d`
+- `command` + `control` + `g`
 - `control` + click and drag - column selection
+- `control` + `shift` + `^`/`V`
 
 Through OS X, but especially helpful here:
 
@@ -130,22 +132,15 @@ Through OS X, but especially helpful here:
 	- each cursor will rememeber only it's portion
 
 - `command` + `shift` + `v` (inline paste)
-- `control` + `shift` + `^`/`V`
 
 Shifting indentation manually:
 
 - `command` + `[` / `]`
 - switching between tabs and spacing, setting it in preferences
 
-### Commenting
 
-- `command` + `/`
-- `command` + `shift` + `/`
 
-#### Command Palette
 
-- `command` + `shift` + `p`
-- you can find anything here
 
 ### Customizing Your Sublime Workflow
 
@@ -156,48 +151,53 @@ Shifting indentation manually:
 - how to set new preferences
 - here's a bunch of possible preferences, and things I like
 
-#### Plugins
+#### Command Palette
 
-##### Installing Package Control
+- `command` + `shift` + `p`
+- you can find anything here
+
+##### Plugins
+
+###### Installing Package Control
 
 Let's take a minute to install Package Control. It's the only package you'll have to install manually.
 
-##### Syntax Highlighters
+###### Syntax Highlighters
 
 - install syntaxes
 - browse through syntaxes
 
-##### Linters
+###### Linters
 
 - how to install
 	- walk through terminal installation for javascript linter
 	- install package
 
-##### Emmet
-
-- superfast HTML and CSS!
-
-##### Git
-
-- mostly to Git Blame
-
-##### Git Gutter
+###### Git Gutter
 
 - what the signs mean, how awesome this is
 
-##### Gists
+###### Git
+
+- mostly to Git Blame
+
+###### Emmet
+
+- superfast HTML and CSS!
+
+###### Text Pastry
+
+- instant iteration!
+
+###### Gists
 
 - creating gists
 - updating
 - using gists as snippets
 
-##### Color Highlighter
+###### Color Highlighter
 
 - see colors just by clicking on them
-
-##### Text Pastry
-
-- instant iteration!
 
 #### Snippets
 
@@ -223,6 +223,11 @@ Let's take a minute to install Package Control. It's the only package you'll hav
 
 ## Documentation
 
+### Commenting in Sublime Text
+
+- `command` + `/`
+- `command` + `shift` + `/`
+
 ### Introduction to Markdown
 
 	There's no such thing as self-documenting code.
@@ -230,6 +235,13 @@ Let's take a minute to install Package Control. It's the only package you'll hav
 	Protect your intentions with documentation.
 
 Documentation is going to be a big part of your job, if you're good at it. I suggest taking an interest in it.
+
+### Places where we can use Markdown
+
+- stackedit.io
+- stackoverflow/superuser
+- github
+- mou
 
 ### Package: Markdown Editing
 
@@ -242,12 +254,7 @@ Documentation is going to be a big part of your job, if you're good at it. I sug
 - instant table of contents!
 - just use `depth=n`
 
-### Places where we can use Markdown
 
-- stackedit.io
-- stackoverflow/superuser
-- github
-- mou
 
 
 

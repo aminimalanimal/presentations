@@ -101,11 +101,15 @@ Content is Perceivable in multiple ways
 
 - Audio content is captioned for those that cannot perceive the audio through hearing alone.
 - Text alternatives are provided for non-text content.
+- State changes—focus, interactions... you should be getting feedback
 
 #### Operable
 
 Content is Operable by multiple means
 
+It gotta work.
+
+Whether you're on keyboard only, touchscreen, etc
 - All functionality is available through the keyboard only
 - Users can navigate and find information easily
 

@@ -4,17 +4,19 @@
 
 <!-- MarkdownTOC depth=6 -->
 
+- About Accessibility
+	- Your users / New User Personas
+		- Hearing Disabilities (Deafness and Hard-of-Hearing)
+		- Motor Disabilities (Physical impairments)
+		- Visual Disabilities (Blindness and Low Vision)
+		- Cognitive Disabilities
 - Straight up copy/pasta'ed from MIT:
 	- The obligatory POUR portion
 		- Perceivable
 		- Operable
 		- Understandable
 		- Robust
-	- Your users / New User Personas
-		- Hearing Disabilities (Deafness and Hard-of-Hearing)
-		- Motor Disabilities (Physical impairments)
-		- Visual Disabilities (Blindness and Low Vision)
-		- Cognitive Disabilities
+		- Just did POUR
 - A Screen Reader's Experience
 	- The Importance of a One to One Experience
 	- Scanning: Landmarks and Headings
@@ -87,6 +89,42 @@
 
 <!-- /MarkdownTOC -->
 
+___
+
+## About Accessibility
+
+### Your users / New User Personas
+
+> Consider creating user personas for these
+
+#### Hearing Disabilities (Deafness and Hard-of-Hearing)
+
+> This is Smash. Smash used to be in a metal band and had the most wicked cabinets around. Now, when he's browsing videos on YouTube, he's always got the closed captions on.
+
+Users with hearing impairments can use the web if provided captions for multimedia content (any video content that also has audio) and transcripts for audio-only content.   Without captions or transcripts, only the visual content is accessible.
+
+#### Motor Disabilities (Physical impairments) 
+Users with motor impairments are more likely to use only a mouse, only a keyboard, voice or other inputs to control and navigate the web.   Websites developed with flexibility of input options are more accessible to these individuals.  Requiring mouse-only or keyboard-only control will create a barrier for some of these individuals.
+
+#### Visual Disabilities (Blindness and Low Vision)
+Users with vision loss can rely on screen enlargement, keyboard-only navigation, and/or the use of screen reader technology.  Access to information via these means is dependent on: sizable fonts, good color contrast, and well-structured websites that label all graphics, icons, buttons, and multimedia, using web standards for coding tables, forms, and frames. 
+
+#### Cognitive Disabilities
+User with cognitive impairment rely on consistent navigation structure. Overly complex presentation, flickering or strobing designs can be confusing to these users.
+
+
+>
+	- the blind
+	- the not-blind
+	- the partially blind
+	- the color blind
+	- the physically impaired
+	- keyboard users
+	- your grandparents
+	- people with no patience
+	- and me
+
+
 ## Straight up copy/pasta'ed from MIT:
 
 [MIT - UX Accessibility Guidelines](https://ux.mit.edu/accessibility/guidelines)
@@ -126,40 +164,9 @@ Offerings are Robust across multiple platforms
 
 - Site interacts with standard mobile devices and assistive technologies
 
-___
+#### Just did POUR
 
-### Your users / New User Personas
-
-> Consider creating user personas for these
-
-#### Hearing Disabilities (Deafness and Hard-of-Hearing)
-
-> This is Smash. Smash used to be in a metal band and had the most wicked cabinets around. Now, when he's browsing videos on YouTube, he's always got the closed captions on.
-
-Users with hearing impairments can use the web if provided captions for multimedia content (any video content that also has audio) and transcripts for audio-only content.   Without captions or transcripts, only the visual content is accessible.
-
-#### Motor Disabilities (Physical impairments) 
-Users with motor impairments are more likely to use only a mouse, only a keyboard, voice or other inputs to control and navigate the web.   Websites developed with flexibility of input options are more accessible to these individuals.  Requiring mouse-only or keyboard-only control will create a barrier for some of these individuals.
-
-#### Visual Disabilities (Blindness and Low Vision)
-Users with vision loss can rely on screen enlargement, keyboard-only navigation, and/or the use of screen reader technology.  Access to information via these means is dependent on: sizable fonts, good color contrast, and well-structured websites that label all graphics, icons, buttons, and multimedia, using web standards for coding tables, forms, and frames. 
-
-#### Cognitive Disabilities
-User with cognitive impairment rely on consistent navigation structure. Overly complex presentation, flickering or strobing designs can be confusing to these users.
-
-
->
-	- the blind
-	- the not-blind
-	- the partially blind
-	- the color blind
-	- the physically impaired
-	- keyboard users
-	- your grandparents
-	- people with no patience
-	- and me
-
-
+**These four ideals/features create the common acronym POUR, which you'll see in nearly any beginner level accessibility tutorial.**
 
 ## A Screen Reader's Experience
 

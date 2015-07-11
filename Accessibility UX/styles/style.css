@@ -17,13 +17,15 @@ code {
 	border-radius: 5px;
 }
 .inverse {
-	background: #272822;
-	color: #777872;
+	background: #23241f;
+	color: #f8f8f2;
 	text-shadow: 0 0 20px #333;
 }
 .inverse h1, .inverse h2, .inverse h3, .inverse h4, .inverse h5, .inverse h6, {
-	color: #f3f3f3;
 	line-height: 0.8em;
+}
+.inverse a {
+	color: #66d9ef;
 }
 .footnote {
 	position: absolute;

@@ -160,7 +160,7 @@ Your screens probably just did something really weird if you were following alon
 
 I find that particular key combination to be useful so we're going to do just that.
 
-**{{Walk through that change}}**
+Keyboard > Shortcuts > Application Windows
 
 So you might be thinking to yourself—what is the point? Why would I want to work with multiple cursors? I actually use this all the time I don't even like writing editors anymore because this is the killer feature to me.
 
@@ -220,7 +220,11 @@ One of the most important things you are going to do here though, is set which f
 
 ###### Installing Package Control
 
-Alright, now we're going to jump into the command palette. Hit command plus shift plus P to open the palette. From here you have access to generally anything sublime text can do and does was the case with go to anything we have the ability to fuzzy search.
+https://packagecontrol.io/installation
+
+Simple installation. Run the python command and restart and we're done.
+
+Alright, now we're going to jump into the command palette. Hit command plus shift plus P to open the palette. From here you have access to generally anything sublime text can do and as was the case with go to anything we have the ability to fuzzy search.
 
 Most of the power from this is going to come from plug-ins that you install. We have to install package control manually, but after that we'll be able to search for and install uninstall and alter our installed plug-ins with the ease of the command palette.
 
@@ -236,9 +240,24 @@ Let's open up a new file with command plus n, then open up our command palette a
 
 ###### Linters
 
-Okay send taxes helpful but let's get into linting. Linters point out mistakes while you're making them by giving you feedback in the left gutter. With linters in sublime text 3 we have to install the linters through package control. The creator of SublimeLinter decided that we're going to only use linting that you have natively installed so we'll actually have to install linting on the command line as well. That way, sublime text's understand of the languages wouldn't be behind any updates made to the languages. You can imagine that it be hard for one developer to update his package every single time any language changes what its syntax is.
+Okay syntax highlighters are helpful but let's get into linting. Linters point out mistakes while you're making them by giving you feedback in the left gutter. With linters in sublime text 3 we have to install the linters through package control. The creator of SublimeLinter decided that we're going to only use linting that you have natively installed so we'll actually have to install linting on the command line as well. That way, sublime text's understand of the languages wouldn't be behind any updates made to the languages. You can imagine that it be hard for one developer to update his package every single time any language changes what its syntax is.
 
-**{{Walk through this}}**
+
+- install sublime linter
+- install linter jshint
+- terminal: npm install -g jshint
+- if you're using zshell, you **have** to include nvm in your zshenv file
+
+- install linter csslint
+- npm install -g csslint
+
+- install linter htmltidy
+- brew install tidy-html5
+
+- install inter coffeelint
+- npm install -g coffeelint
+
+
 
 ###### Git Gutter
 
@@ -308,7 +327,13 @@ The first is called markdown editing. It provides syntax highlighting and slight
 
 After installing mark done editing you're going to end up with this like text on white background sort of scheme. That can be adjusted though.
 
-**{{look into how you configured this}}**
+(When you install Markdown Extended, make sure you don't already have a Markdown file open.)
+
+Okay, so it's default color is... well, I consider it awful.
+
+You can go to Sublime Text > Preferences > Package Settings > Markdown Editing and then choose a user file there to reset it. You have three different syntaxes that this happens in, and will probably want to update all of them.
+
+My preference? Monokai Extended.
 
 #### Syntax
 
